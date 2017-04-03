@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.com.example.wagner.meupredi.MainActivity">
+
+    <TextView
+        android:id="@+id/text_bem_vindo"
+        android:layout_width="368dp"
+        android:layout_height="47dp"
+        android:text="Bem Vindo!"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:typeface="serif"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <Button
+        android:id="@+id/btn_cadastro"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="CADASTRO"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <Button
+        android:id="@+id/btn_edicao"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="EDIÇÃO"
+        app:layout_constraintTop_toBottomOf="@+id/btn_cadastro"
+        tools:layout_editor_absoluteX="8dp" />
+    <Button
+        android:id="@+id/btn_status"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="STATUS"
+        app:layout_constraintTop_toBottomOf="@+id/btn_edicao"
+        tools:layout_editor_absoluteX="8dp" />
+
+
+</android.support.constraint.ConstraintLayout>
